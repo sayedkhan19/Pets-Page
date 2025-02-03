@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets Lover</title>
+    <!-- tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+   <header class="max-w-full flex lg:flex md:flex sm:flex justify-around items-center bg-[#FFF9F4] py-5 shadow-slate-300 px-1">
+<!-- head left -->
+ 
+<!-- div -->
+  <div class="flex sm:flex lg:flex md:flex space-x-2 items-center justify-center text-3xl">
+<img src="pic/logo-header.png" alt="">
+<h1 class="lg:block md:block hidden">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+  </div>
+
+  <!-- head middle -->
+   <div class="flex items-center justify-center hidden lg:block sm:hidden md:hidden">
+    <ul class="flex space-x-5 items-center justify-center text-2xl">
+        <li><a href="">Find a pet</a></li>
+        <li><a href="">Breeds</a></li>
+        <li><a href="">Contact us</a></li>
+    </ul>
+   </div>
+
+   <!-- head end -->
+    <div>
+    <img class="lg:hidden md:hidden" src="pic/bars-3.png" alt="">
+
+        <div class="flex hidden md:block lg:block lg:space-x-4 lg:flex items-center">
+            <img class="h-5" src="pic/bell-solid-24.png" alt="">
+            <img class="h-5" src="pic/search-regular-24.png" alt="">
+            <button class="py-2 px-4 rounded-md border-yellow-300 border">Login</button>
+            <button class="py-2 px-4 rounded-md bg-yellow-500">Register</button>
+            </div>
+    </div>
+   </header>
+   <hr class="block lg:hidden md:hidden sm:hidden text-yellow-500">
+</body>
+</html>
